@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="new">
+
+    </div>
+
+
+    <script>
+        let d = [{ name: "Nitish", class: "B.Tech", Sec: "fasf" }, { name: "Nitish", class: "B.Tech", Sec: "w" }, { name: "ewf", class: "B.dfs", Sec: "N" }]
+        let neww = document.getElementById("new");
+
+        d.map((e)=>{
+            neww.innerHTML += `
+                <div>
+                    ${e.name}
+                </div>
+                <div>
+                    ${e.class}
+                </div>
+                <div>
+                    ${e.Sec}
+                </div>
+            `
+        })
+        
+    </script>
+</body>
+
+</html>

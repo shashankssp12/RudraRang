@@ -1,0 +1,22 @@
+/* Styling Below */
+
+.inputBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.inputBox input{
+    padding: 0.5rem;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.inputBox label{
+    font-size: 1.2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+}
+#form form{
+    box-shadow: 0px 0px 20px 4px gray;
+}
